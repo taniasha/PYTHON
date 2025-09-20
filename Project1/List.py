@@ -1,23 +1,23 @@
-# Ek program banao jisme ek list create karo aur usme append(), insert(), remove(), pop(), sort() aur reverse() functions ka use dikhayo.
+# Ek program banao jisme ek mylist create karo aur usme append(), insert(), remove(), pop(), sort() aur reverse() functions ka use dikhayo.
 
-list = ['apple','orange', 'banana']
+mylist = ['apple','orange', 'banana']
 
 # append -- add elem at last
-list.append('guava')
-print(list)
+mylist.append('guava')
+print(mylist)
 
 # insert --- insert at specified index
-list.insert(2,'melon')
-print(list)
+mylist.insert(2,'melon')
+print(mylist)
 
 # remove -- remove specific elem
-list.remove("guava")
-print(list)
+mylist.remove("guava")
+print(mylist)
 
 # pop -- remove index elem
-list.pop(0)
-print(list)
+mylist.pop(0)
+print(mylist)
 
 # sort
-list.sort()
-print(list)
+mylist.sort()
+print(mylist)
