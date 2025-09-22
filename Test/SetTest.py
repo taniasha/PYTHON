@@ -35,7 +35,8 @@ print(set3)
 set3.remove(7)
 print(set3)
 
-set3.discard(0)
+# if elem is not present then it doesnt show error
+set3.discard(0) 
 print(set3)
 
 set3.clear()
